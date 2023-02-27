@@ -1,0 +1,43 @@
+
+.main-container{
+    display: flex;
+    background-color: antiquewhite;
+    align-items: center;
+
+
+}
+.container{
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    align-items: center;
+    
+}
+.city-address{
+    border-color:white;
+}
+.city{
+
+border-color:white;
+width: 100px;
+color: coral;
+
+}
+.nav-element{
+    display: flex;
+     flex-direction: row-reverse;
+     align-items: center;
+     gap: 20px;
+     /* justify-content: flex-end; */
+}
+.material-symbols-outlined{
+    align-items: center;
+}
+.items{
+    align-items: center;
+    /* text-align: center; */
+    
+}
+items:hover{
+    color: coral;
+}
